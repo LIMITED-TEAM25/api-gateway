@@ -8,6 +8,8 @@ spring:
       - classpath:properties/eureka-client.yml
       - classpath:properties/jwt.yml
       - classpath:properties/actuator.yml
+  profiles:
+    active: local
   application:
     name: api-gateway
   main:
